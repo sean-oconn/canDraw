@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"type="text/css" href="styleHome.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title> Home </title>
+</head>
+
+<body>
+  <div id="Fore">
+
+<h1> Can Sean Draw it </h1>
+      <button id="b1" onclick="activate1()"> Info </button>
+
+        <button id="b2" onclick="activate2()"> How it Works </button>
+
+<button id= "b3" onclick="activate3()"> Rules </button>
+        <script>
+        function activate1(){
+          var x= document.getElementById('step1');
+          var y=document.getElementById('step2');
+          var z=document.getElementById("step3");
+          if (x.style.display==="none") {
+            x.style.display="block";
+          y.style.display="none"
+        z.style.display="none"}
+            else { x.style.display="none"}
+
+        }
+        </script>
+
+  <script>
+  function activate2(){
+    var x= document.getElementById('step1');
+    var y= document.getElementById('step2');
+    var z=document.getElementById("step3");
+    if (y.style.display==="none") {
+      y.style.display="block";
+    x.style.display="none"
+  z.style.display="none"}
+      else { y.style.display="none"}
+
+  }
+  </script>
+
+  <script>
+  function activate3(){
+    var x= document.getElementById('step1');
+    var y= document.getElementById('step2');
+    var z=document.getElementById("step3");
+    if (z.style.display==="none") {
+      z.style.display="block";
+    x.style.display="none"
+  y.style.display="none"}
+      else { z.style.display="none"}
+
+  }
+  </script>
+  <div id="step1">
+<p> Thank you for visiting my site! I love art, but struggle with coming up with things to draw. This site is a submission based site where you can submit an idea for me to draw to help me practice my art skills.
+</p>
+  </div>
+  <div id="step2">
+<p> So the layout of this website is very simple, at the end of the rules will be a link to the next page. On this page you will fill out a form with your name, email, and a description of what I should draw. When I am done drawing your picture, I will send you an email telling you that it is posted. Posted images can be found on the gallery page (link can be found on the Form page).
+</p>
+</div>
+
+<div id="step3">
+<p> There are only two rules of this site. The first one is please keep your submissions PG-13. Anyone has access to this site and I would feel terrible if they stumbled upon something inappropriate. The second rule is to please only submit one idea at a time (i.e. wait for your first drawing to be posted before you submit a second).
+  <a href="http://cs.slu.edu/student/oconnorsp/Final/SubmitFinal.html"> Enjoy </a> </p>
+</div>
+<footer>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
+    </div>
+  </body>
+  </html>
